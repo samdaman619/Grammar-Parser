@@ -14,6 +14,8 @@ grammer rules:
     <P> ::= <C> ^ <P> | <C>
     <C> ::= char | ( <E> ) | digit
 
+NOTE: It is important to know that this grammer only accepts SINGLE digit numeric values, and SINGLE alphabetic characters, as well as the these operators/symbols: ( ) = + - * / ^
+
 This is a grammar for a simple language consisting of a sequence of assignment statements, terminated by semicolons. The whole program is terminated by the symbol ‘$’. Operands are single characters or single integers. Operators are: = + - * / ^
 
 Sample input:
