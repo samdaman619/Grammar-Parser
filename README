@@ -14,9 +14,9 @@ grammer rules:
     <P> ::= <C> ^ <P> | <C>
     <C> ::= char | ( <E> ) | digit
 
-NOTE: It is important to know that this grammer only accepts SINGLE digit numeric values, and SINGLE alphabetic characters, as well as the these operators/symbols: ( ) = + - * / ^
+NOTE: It is important to note that the operands MUST CONSIST OF SINGLE numeric digits, and SINGLE alphabetic characters, separated by an operator (i.e. = + - * / ^).
 
-This is a grammar for a simple language consisting of a sequence of assignment statements, terminated by semicolons. The whole program is terminated by the symbol ‘$’. Operands are single characters or single integers. Operators are: = + - * / ^
+This is a grammar for a simple language consisting of a sequence of assignment statements, terminated by semicolons. The whole program is terminated by the symbol ‘$’.
 
 Sample input:
 a = 6; e = m * c^2; c = h^ (t-5+ (g^n-9) +k^4 *u); $
@@ -24,13 +24,9 @@ a = 6; e = m * c^2; c = h^ (t-5+ (g^n-9) +k^4 *u); $
 ————————————————————————————————————————————————————————————————————————————————
 ————————————————————————————————————————————————————————————————————————————————
 
-Compile Instructions:
-1. Make sure you are in the 'a3' directory
-2. Type 'make' and click enter to compile
-
 
 Operating Instructions:
-1. Type 'parse' and click enter to start program
+1. Compile and run the program (with no arguments)
 2. Program will ask for user to input a sentence to parse
 3. Enter one or more expressions on one line, each followed by ';'
 4. Put a '$' sign at the end of the last expression in the sentence, and click enter
