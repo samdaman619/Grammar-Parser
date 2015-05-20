@@ -3,6 +3,7 @@ CS 530, Spring 2015
 Assignment #3, parser
 FILE: README
 
+
 Description:
 This program will determine if a certain input is valid for the set of grammar rules found below. The program will output “Successful parse” if the input is correct. If not, it will identify where the error was encountered and identify what kind of error it was.
 
