@@ -7,7 +7,7 @@ Sami Badra: masc0673
 CS 530, Spring 2015
 Assignment #3, parser
 FILE: README
-'''
+
 Description:
 This program will determine if a certain input is valid for the set of grammar rules found below. The program will output “Successful parse” if the input is correct. If not, it will identify where the error was encountered and identify what kind of error it was.
 
@@ -25,7 +25,7 @@ This is a grammar for a simple language consisting of a sequence of assignment s
 
 Sample input:
 a = 6; e = m * c^2; c = h^ (t-5+ (g^n-9) +k^4 *u); $
-
+'''
 ————————————————————————————————————————————————————————————————————————————————
 
 Operating Instructions:
