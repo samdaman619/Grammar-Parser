@@ -1,3 +1,4 @@
+'''
 Copyright 2015 Sami Badra
 
 DISCLAIMER: Any unauthorized use, including but not limited to, copying or redistributing any chunk of the source code (or an entire file) will result in punishment by law. I, Sami Badra, own all rights to the files and their contents.
@@ -6,7 +7,7 @@ Sami Badra: masc0673
 CS 530, Spring 2015
 Assignment #3, parser
 FILE: README
-
+'''
 Description:
 This program will determine if a certain input is valid for the set of grammar rules found below. The program will output “Successful parse” if the input is correct. If not, it will identify where the error was encountered and identify what kind of error it was.
 
