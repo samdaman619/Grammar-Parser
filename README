@@ -4,9 +4,7 @@ Assignment #3, parser
 FILE: README
 
 Description:
-This program will determine if a certain input is valid for the set of grammar rules
-found below. The program will output “Successful parse” if the input is correct. If not,
-it will identify where the error was encountered and identify what kind of error it was.
+This program will determine if a certain input is valid for the set of grammar rules found below. The program will output “Successful parse” if the input is correct. If not, it will identify where the error was encountered and identify what kind of error it was.
 
 grammer rules:
     <Z> ::= <S> {<S>}$
@@ -16,9 +14,7 @@ grammer rules:
     <P> ::= <C> ^ <P> | <C>
     <C> ::= char | ( <E> ) | digit
 
-This is a grammar for a simple language consisting of a sequence of assignment
-statements, terminated by semicolons. The whole program is terminated by the symbol ‘$’.
-Operands are single characters or single integers. Operators are: = + - * / ^
+This is a grammar for a simple language consisting of a sequence of assignment statements, terminated by semicolons. The whole program is terminated by the symbol ‘$’. Operands are single characters or single integers. Operators are: = + - * / ^
 
 Sample input:
 a = 6; e = m * c^2; c = h^ (t-5+ (g^n-9) +k^4 *u); $
@@ -45,5 +41,4 @@ Extra Features:
 
 
 Lessons Learned:
-- This assignment has given me a great understanding of how parsing works, and how
-to determine if a certain sentence follows the grammatical rules for any grammar.
+- This assignment has given me a great understanding of how parsing works, and how to determine if a certain sentence follows the grammatical rules for any grammar.
