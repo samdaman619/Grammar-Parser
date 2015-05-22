@@ -1,11 +1,11 @@
-/*
+ /*
  Sami Badra: masc0673
  
  CS 530, Spring 2015
  Assignment #3, parser
  FILE: parser.c
  
- Copyright 2015 Sami Badra
+ Copyright (c) 2015 Sami Badra. All rights reserved.
  
  DISCLAIMER: Any unauthorized use, including but not limited to, copying or
  redistributing any chunk of the source code (or an entire file) will result in
