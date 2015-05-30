@@ -6,10 +6,8 @@ CS 530, Spring 2015
 Assignment #3, parser  
 FILE: README
 
-
 ##Description
 This program will determine if a certain input is valid for the set of grammar rules found below. The program will output “Successful parse” if the input is correct. If not, it will identify where the error was encountered and identify what kind of error it was.
-
 
 ##Grammer Rules
     <Z> ::= <S> {<S>}$
@@ -19,10 +17,9 @@ This program will determine if a certain input is valid for the set of grammar r
     <P> ::= <C> ^ <P> | <C>
     <C> ::= char | ( <E> ) | digit
 
-NOTE: It is important to note that the operands MUST CONSIST OF SINGLE numeric digits, and SINGLE alphabetic characters, separated by an operator (i.e. = + - * / ^).
+NOTE: It is important to note that the operands can **only** consist of **single** numeric digits, and SINGLE alphabetic characters, separated by an operator (i.e. = + - * / ^).
 
 This is a grammar for a simple language consisting of a sequence of assignment statements, terminated by semicolons. The whole program is terminated by the symbol ‘$’.
-
 
 ##Sample Input
 `a = 6; e = m * c^2; c = h^ (t-5+ (g^n-9) +k^4 *u); $`
