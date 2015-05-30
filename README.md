@@ -14,7 +14,7 @@ FILE: README
 This program will determine if a certain input is valid for the set of grammar rules found below. The program will output “Successful parse” if the input is correct. If not, it will identify where the error was encountered and identify what kind of error it was.
 
 
-##grammer rules:
+##Grammer Rules
     <Z> ::= <S> {<S>}$
     <S> ::= char = <E>;
     <E> ::= <V> {( + | - ) <V>}
@@ -27,7 +27,7 @@ NOTE: It is important to note that the operands MUST CONSIST OF SINGLE numeric d
 This is a grammar for a simple language consisting of a sequence of assignment statements, terminated by semicolons. The whole program is terminated by the symbol ‘$’.
 
 
-##Sample input
+##Sample Input
 `a = 6; e = m * c^2; c = h^ (t-5+ (g^n-9) +k^4 *u); $`
 
 `z= u-9 ; y = 5-t^(h-8*j+6) / k^3; u=o-l; k=5-l/8; $`
