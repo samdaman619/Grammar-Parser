@@ -28,9 +28,9 @@ This is a grammar for a simple language consisting of a sequence of assignment s
 
 
 ##Sample input
-
 `a = 6; e = m * c^2; c = h^ (t-5+ (g^n-9) +k^4 *u); $`
 
+`z= u-9 ; y = 5-t^(h-8*j+6) / k^3; u=o-l; k=5-l/8; $`
 
 ##Operating Instructions
 1. Compile and run the program (with no arguments)
