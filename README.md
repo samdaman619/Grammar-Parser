@@ -1,12 +1,9 @@
 
 Copyright 2015 Sami Badra. All Rights Reserved.
 
-Sami Badra: masc0673
-
-CS 530, Spring 2015
-
-Assignment #3, parser
-
+Sami Badra: masc0673  
+CS 530, Spring 2015  
+Assignment #3, parser  
 FILE: README
 
 
